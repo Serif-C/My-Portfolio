@@ -29,7 +29,7 @@ const About = () => {
         viewport={{ once: false }} // 🔹 Enables re-triggering
       >
         <div className="w-48 h-48 md:w-64 md:h-64 overflow-hidden rounded-full shadow-lg mb-6 md:mb-0 md:mr-10">
-          <img src="/food.jpg" alt="Serif Cetinalp" className="w-full h-full object-cover" />
+          <img src={import.meta.env.BASE_URL + "food.jpg"} alt="Serif Cetinalp" className="w-full h-full object-cover" />
         </div>
         <div className="text-gray-300 leading-relaxed max-w-lg">
           <p className="mb-4">
