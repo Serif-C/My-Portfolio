@@ -24,7 +24,8 @@ const projects = [
 
     demoLink: "https://serifcetinalp.itch.io/senile-sorcery",
     githubLink: "https://github.com/Serif-C/Senile-Sorcery",  
-    image: "https://serif-c.github.io/public/s_s.jpg",
+    image: import.meta.env.BASE_URL + "s_s.jpg"
+
   },
   // You can update Project 2/3 similarly later...
 
@@ -50,7 +51,7 @@ const projects = [
 
     demoLink: "https://www.youtube.com/watch?v=DJWsR8N3uAA&ab_channel=serifcetinalp",
     // githubLink: "https://github.com/project-repo",
-    image: "https://serif-c.github.io/public/frog.jpg",
+    image: import.meta.env.BASE_URL + "/frog.jpg",
   },
 
   {
@@ -75,7 +76,7 @@ const projects = [
 
     demoLink: "https://www.youtube.com/watch?v=9YtMycJf2O4&ab_channel=serifcetinalp",
     // githubLink: "https://github.com/project-repo",
-    image: "https://serif-c.github.io/public/arduino_image.jpg",
+    image: import.meta.env.BASE_URL + "/arduino_image.jpg",
   },
 ];
 
