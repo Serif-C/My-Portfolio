@@ -16,10 +16,10 @@ const projects = [
     ],
 
     techLogos: [
-      { name: "Unity", src: "/logos/Unity.png", alt: "Unity Logo" },
-      { name: "C#", src: "/logos/Csharp.png", alt: "C# Logo" },
-      { name: "Photoshop", src: "/logos/Photoshop.png", alt: "Photoshop Logo" },
-      { name: "Aseprite", src: "/logos/Aseprite.png", alt: "Aseprite Logo" },
+      { name: "Unity", src: import.meta.env.BASE_URL + "logos/Unity.png", alt: "Unity Logo" },
+      { name: "C#", src: import.meta.env.BASE_URL + "logos/Csharp.png", alt: "C# Logo" },
+      { name: "Photoshop", src: import.meta.env.BASE_URL + "logos/Photoshop.png", alt: "Photoshop Logo" },
+      { name: "Aseprite", src: import.meta.env.BASE_URL + "logos/Aseprite.png", alt: "Aseprite Logo" },
     ],
 
     demoLink: "https://serifcetinalp.itch.io/senile-sorcery",
@@ -44,14 +44,14 @@ const projects = [
     ],
 
     techLogos: [
-      { name: "OpenGL", src: "/logos/Unity.png", alt: "Unity Logo" },
-      { name: "C++", src: "/logos/Csharp.png", alt: "C# Logo" },
-      { name: "Visual Studio Code", src: "/logos/Photoshop.png", alt: "Photoshop Logo" },
+      { name: "OpenGL", src: import.meta.env.BASE_URL + "logos/Unity.png", alt: "Unity Logo" },
+      { name: "C++", src: import.meta.env.BASE_URL + "logos/Csharp.png", alt: "C# Logo" },
+      { name: "Visual Studio Code", src: import.meta.env.BASE_URL + "logos/Photoshop.png", alt: "Photoshop Logo" },
     ],
 
     demoLink: "https://www.youtube.com/watch?v=DJWsR8N3uAA&ab_channel=serifcetinalp",
     // githubLink: "https://github.com/project-repo",
-    image: import.meta.env.BASE_URL + "/frog.jpg",
+    image: import.meta.env.BASE_URL + "frog.jpg",
   },
 
   {
@@ -68,15 +68,15 @@ const projects = [
     ],
 
     techLogos: [
-      { name: "Unity", src: "/logos/Unity.png", alt: "Unity Logo" },
-      { name: "C#", src: "/logos/Csharp.png", alt: "C# Logo" },
-      { name: "Photoshop", src: "/logos/Photoshop.png", alt: "Photoshop Logo" },
-      { name: "Aseprite", src: "/logos/Aseprite.png", alt: "Aseprite Logo" },
+      { name: "Unity", src: import.meta.env.BASE_URL + "logos/Unity.png", alt: "Unity Logo" },
+      { name: "C#", src: import.meta.env.BASE_URL + "logos/Csharp.png", alt: "C# Logo" },
+      { name: "Photoshop", src: import.meta.env.BASE_URL + "logos/Photoshop.png", alt: "Photoshop Logo" },
+      { name: "Aseprite", src: import.meta.env.BASE_URL + "logos/Aseprite.png", alt: "Aseprite Logo" },
     ],
 
     demoLink: "https://www.youtube.com/watch?v=9YtMycJf2O4&ab_channel=serifcetinalp",
     // githubLink: "https://github.com/project-repo",
-    image: import.meta.env.BASE_URL + "/arduino_image.jpg",
+    image: import.meta.env.BASE_URL + "arduino_image.jpg",
   },
 ];
 
