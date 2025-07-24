@@ -33,12 +33,13 @@ const About = () => {
         </div>
         <div className="text-gray-300 leading-relaxed max-w-lg">
           <p className="mb-4">
-            I'm a software developer with a passion for building high-performance applications.
-            I specialize in modern web technologies such as **React, Node.js, and Tailwind CSS**.
+            Hey, I’m Serif Cetinalp. I recently graduated with a degree in Computer Science, and I’m all about building cool stuff with code. In my free time, 
+            you’ll usually find me playing video games, working out at the gym, or messing around in Unity trying out new game mechanic ideas — sometimes just for fun, 
+            sometimes because I can’t stop thinking “what if…?”
           </p>
           <p>
-            In my free time, I love **learning new programming concepts**, 
-            contributing to **open-source projects**, and exploring new tools to improve efficiency.
+            I’m always learning, always experimenting, and always down to work on something creative. 
+            Whether it's a game prototype or a random coding project, I love bringing ideas to life.
           </p>
         </div>
       </motion.div>
